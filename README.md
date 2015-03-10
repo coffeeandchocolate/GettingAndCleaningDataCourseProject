@@ -28,7 +28,7 @@ This file will be written into your working directory.
 
 To read the tidy data set back into R, use the following code:
 ```
-read.table(outFile, header=TRUE, colClasses=c(rep("factor", 2), rep("numeric", 66)))
+read.table(<filename>, header=TRUE, colClasses=c(rep("factor", 2), rep("numeric", 66)))
 ```
 
 ## Assumptions
