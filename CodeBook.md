@@ -29,9 +29,10 @@ Variables are listed in their column order.
 The first two variables are fixed variables describing the subject-activity 
 pair for the observation.
 
-**subject (character):** Unique ID number for each subject. Numbers are from 
-1-30. ID numbers are treated as characters rather than as numeric because they 
-are categorical variables (i.e., it is nonsensical to calculate with them)
+**subject (factor):** Unique ID number for each subject. ID numbers are from 
+1-30. ID numbers are treated as factors rather than as numeric because they 
+are categorical variables (i.e., it is nonsensical to calculate with them but
+you may want to use them to disaggregate analyses).
 
 **activity (factor):** Activity type. The six levels of this factor are:
 
@@ -46,8 +47,8 @@ are categorical variables (i.e., it is nonsensical to calculate with them)
 
 #### Overall description and organization
 The remaining 66 variables correspond to the mean value for 66 features derived 
-from the smartphone's sensors. These are all numeric variables bounded within
-[-1, 1].
+from the smartphone's sensors. **These are all numeric variables bounded within
+[-1, 1].**
 
 Variable names follow this general convention:
 ```"mean" + type + signal details + statistic```
