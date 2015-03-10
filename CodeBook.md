@@ -100,71 +100,71 @@ The below lists should make the overall organization of the columns clearer:
 
 ### Column numbers and variable names for all 68 variables
 
-1.  subject
-2.  activity
-3.  meanTimeBodyLinearAccelerationXDirectionMean
-4.  meanTimeBodyLinearAccelerationYDirectionMean
-5.	meanTimeBodyLinearAccelerationZDirectionMean
-6.	meanTimeBodyLinearAccelerationXDirectionStandardDeviation
-7.	meanTimeBodyLinearAccelerationYDirectionStandardDeviation
-8.	meanTimeBodyLinearAccelerationZDirectionStandardDeviation
-9.	meanTimeGravityAccelerationXDirectionMean
-10.	meanTimeGravityAccelerationYDirectionMean
-11.	meanTimeGravityAccelerationZDirectionMean
-12.	meanTimeGravityAccelerationXDirectionStandardDeviation
-13.	meanTimeGravityAccelerationYDirectionStandardDeviation
-14.	meanTimeGravityAccelerationZDirectionStandardDeviation
-15.	meanTimeBodyLinearAccelerationJerkXDirectionMean
-16.	meanTimeBodyLinearAccelerationJerkYDirectionMean
-17.	meanTimeBodyLinearAccelerationJerkZDirectionMean
-18.	meanTimeBodyLinearAccelerationJerkXDirectionStandardDeviation
-19.	meanTimeBodyLinearAccelerationJerkYDirectionStandardDeviation
-20.	meanTimeBodyLinearAccelerationJerkZDirectionStandardDeviation
-21.	meanTimeBodyAngularVelocityXDirectionMean
-22.	meanTimeBodyAngularVelocityYDirectionMean
-23.	meanTimeBodyAngularVelocityZDirectionMean
-24.	meanTimeBodyAngularVelocityXDirectionStandardDeviation
-25.	meanTimeBodyAngularVelocityYDirectionStandardDeviation
-26.	meanTimeBodyAngularVelocityZDirectionStandardDeviation
-27.	meanTimeBodyAngularVelocityJerkXDirectionMean
-28.	meanTimeBodyAngularVelocityJerkYDirectionMean
-29.	meanTimeBodyAngularVelocityJerkZDirectionMean
-30.	meanTimeBodyAngularVelocityJerkXDirectionStandardDeviation
-31.	meanTimeBodyAngularVelocityJerkYDirectionStandardDeviation
-32.	meanTimeBodyAngularVelocityJerkZDirectionStandardDeviation
-33.	meanTimeBodyLinearAccelerationMagnitudeMean
-34.	meanTimeBodyLinearAccelerationMagnitudeStandardDeviation
-35.	meanTimeGravityAccelerationMagnitudeMean
-36.	meanTimeGravityAccelerationMagnitudeStandardDeviation
-37.	meanTimeBodyLinearAccelerationJerkMagnitudeMean
-38.	meanTimeBodyLinearAccelerationJerkMagnitudeStandardDeviation
-39.	meanTimeBodyAngularVelocityMagnitudeMean
-40.	meanTimeBodyAngularVelocityMagnitudeStandardDeviation
-41.	meanTimeBodyAngularVelocityJerkMagnitudeMean
-42.	meanTimeBodyAngularVelocityJerkMagnitudeStandardDeviation
-43.	meanFrequencyBodyLinearAccelerationXDirectionMean
-44.	meanFrequencyBodyLinearAccelerationYDirectionMean
-45.	meanFrequencyBodyLinearAccelerationZDirectionMean
-46.	meanFrequencyBodyLinearAccelerationXDirectionStandardDeviation
-47.	meanFrequencyBodyLinearAccelerationYDirectionStandardDeviation
-48.	meanFrequencyBodyLinearAccelerationZDirectionStandardDeviation
-49.	meanFrequencyBodyLinearAccelerationJerkXDirectionMean
-50.	meanFrequencyBodyLinearAccelerationJerkYDirectionMean
-51.	meanFrequencyBodyLinearAccelerationJerkZDirectionMean
-52.	meanFrequencyBodyLinearAccelerationJerkXDirectionStandardDeviation
-53.	meanFrequencyBodyLinearAccelerationJerkYDirectionStandardDeviation
-54.	meanFrequencyBodyLinearAccelerationJerkZDirectionStandardDeviation
-55.	meanFrequencyBodyAngularVelocityXDirectionMean
-56.	meanFrequencyBodyAngularVelocityYDirectionMean
-57.	meanFrequencyBodyAngularVelocityZDirectionMean
-58.	meanFrequencyBodyAngularVelocityXDirectionStandardDeviation
-59.	meanFrequencyBodyAngularVelocityYDirectionStandardDeviation
-60.	meanFrequencyBodyAngularVelocityZDirectionStandardDeviation
-61.	meanFrequencyBodyLinearAccelerationMagnitudeMean
-62.	meanFrequencyBodyLinearAccelerationMagnitudeStandardDeviation
-63.	meanFrequencyBodyLinearAccelerationJerkMagnitudeMean
-64.	meanFrequencyBodyLinearAccelerationJerkMagnitudeStandardDeviation
-65.	meanFrequencyBodyAngularVelocityMagnitudeMean
-66.	meanFrequencyBodyAngularVelocityMagnitudeStandardDeviation
-67.	meanFrequencyBodyAngularVelocityJerkMagnitudeMean
-68.	meanFrequencyBodyAngularVelocityJerkMagnitudeStandardDeviation
+1.  subject (factor: 30 levels)
+2.  activity (factor: 6 levels)
+3.  meanTimeBodyLinearAccelerationXDirectionMean (numeric: [-1, 1])
+4.  meanTimeBodyLinearAccelerationYDirectionMean (numeric: [-1, 1])
+5.	meanTimeBodyLinearAccelerationZDirectionMean (numeric: [-1, 1])
+6.	meanTimeBodyLinearAccelerationXDirectionStandardDeviation (numeric: [-1, 1])
+7.	meanTimeBodyLinearAccelerationYDirectionStandardDeviation (numeric: [-1, 1])
+8.	meanTimeBodyLinearAccelerationZDirectionStandardDeviation (numeric: [-1, 1])
+9.	meanTimeGravityAccelerationXDirectionMean (numeric: [-1, 1])
+10.	meanTimeGravityAccelerationYDirectionMean (numeric: [-1, 1])
+11.	meanTimeGravityAccelerationZDirectionMean (numeric: [-1, 1])
+12.	meanTimeGravityAccelerationXDirectionStandardDeviation (numeric: [-1, 1])
+13.	meanTimeGravityAccelerationYDirectionStandardDeviation (numeric: [-1, 1])
+14.	meanTimeGravityAccelerationZDirectionStandardDeviation (numeric: [-1, 1])
+15.	meanTimeBodyLinearAccelerationJerkXDirectionMean (numeric: [-1, 1])
+16.	meanTimeBodyLinearAccelerationJerkYDirectionMean (numeric: [-1, 1])
+17.	meanTimeBodyLinearAccelerationJerkZDirectionMean (numeric: [-1, 1])
+18.	meanTimeBodyLinearAccelerationJerkXDirectionStandardDeviation (numeric: [-1, 1])
+19.	meanTimeBodyLinearAccelerationJerkYDirectionStandardDeviation (numeric: [-1, 1])
+20.	meanTimeBodyLinearAccelerationJerkZDirectionStandardDeviation (numeric: [-1, 1])
+21.	meanTimeBodyAngularVelocityXDirectionMean (numeric: [-1, 1])
+22.	meanTimeBodyAngularVelocityYDirectionMean (numeric: [-1, 1])
+23.	meanTimeBodyAngularVelocityZDirectionMean (numeric: [-1, 1])
+24.	meanTimeBodyAngularVelocityXDirectionStandardDeviation (numeric: [-1, 1])
+25.	meanTimeBodyAngularVelocityYDirectionStandardDeviation (numeric: [-1, 1])
+26.	meanTimeBodyAngularVelocityZDirectionStandardDeviation (numeric: [-1, 1])
+27.	meanTimeBodyAngularVelocityJerkXDirectionMean (numeric: [-1, 1])
+28.	meanTimeBodyAngularVelocityJerkYDirectionMean (numeric: [-1, 1])
+29.	meanTimeBodyAngularVelocityJerkZDirectionMean (numeric: [-1, 1])
+30.	meanTimeBodyAngularVelocityJerkXDirectionStandardDeviation (numeric: [-1, 1])
+31.	meanTimeBodyAngularVelocityJerkYDirectionStandardDeviation (numeric: [-1, 1])
+32.	meanTimeBodyAngularVelocityJerkZDirectionStandardDeviation (numeric: [-1, 1])
+33.	meanTimeBodyLinearAccelerationMagnitudeMean (numeric: [-1, 1])
+34.	meanTimeBodyLinearAccelerationMagnitudeStandardDeviation (numeric: [-1, 1])
+35.	meanTimeGravityAccelerationMagnitudeMean (numeric: [-1, 1])
+36.	meanTimeGravityAccelerationMagnitudeStandardDeviation (numeric: [-1, 1])
+37.	meanTimeBodyLinearAccelerationJerkMagnitudeMean (numeric: [-1, 1])
+38.	meanTimeBodyLinearAccelerationJerkMagnitudeStandardDeviation (numeric: [-1, 1])
+39.	meanTimeBodyAngularVelocityMagnitudeMean (numeric: [-1, 1])
+40.	meanTimeBodyAngularVelocityMagnitudeStandardDeviation (numeric: [-1, 1])
+41.	meanTimeBodyAngularVelocityJerkMagnitudeMean (numeric: [-1, 1])
+42.	meanTimeBodyAngularVelocityJerkMagnitudeStandardDeviation (numeric: [-1, 1])
+43.	meanFrequencyBodyLinearAccelerationXDirectionMean (numeric: [-1, 1])
+44.	meanFrequencyBodyLinearAccelerationYDirectionMean (numeric: [-1, 1])
+45.	meanFrequencyBodyLinearAccelerationZDirectionMean (numeric: [-1, 1])
+46.	meanFrequencyBodyLinearAccelerationXDirectionStandardDeviation (numeric: [-1, 1])
+47.	meanFrequencyBodyLinearAccelerationYDirectionStandardDeviation (numeric: [-1, 1])
+48.	meanFrequencyBodyLinearAccelerationZDirectionStandardDeviation (numeric: [-1, 1])
+49.	meanFrequencyBodyLinearAccelerationJerkXDirectionMean (numeric: [-1, 1])
+50.	meanFrequencyBodyLinearAccelerationJerkYDirectionMean (numeric: [-1, 1])
+51.	meanFrequencyBodyLinearAccelerationJerkZDirectionMean (numeric: [-1, 1])
+52.	meanFrequencyBodyLinearAccelerationJerkXDirectionStandardDeviation (numeric: [-1, 1])
+53.	meanFrequencyBodyLinearAccelerationJerkYDirectionStandardDeviation (numeric: [-1, 1])
+54.	meanFrequencyBodyLinearAccelerationJerkZDirectionStandardDeviation (numeric: [-1, 1])
+55.	meanFrequencyBodyAngularVelocityXDirectionMean (numeric: [-1, 1])
+56.	meanFrequencyBodyAngularVelocityYDirectionMean (numeric: [-1, 1])
+57.	meanFrequencyBodyAngularVelocityZDirectionMean (numeric: [-1, 1])
+58.	meanFrequencyBodyAngularVelocityXDirectionStandardDeviation (numeric: [-1, 1])
+59.	meanFrequencyBodyAngularVelocityYDirectionStandardDeviation (numeric: [-1, 1])
+60.	meanFrequencyBodyAngularVelocityZDirectionStandardDeviation (numeric: [-1, 1])
+61.	meanFrequencyBodyLinearAccelerationMagnitudeMean (numeric: [-1, 1])
+62.	meanFrequencyBodyLinearAccelerationMagnitudeStandardDeviation (numeric: [-1, 1])
+63.	meanFrequencyBodyLinearAccelerationJerkMagnitudeMean (numeric: [-1, 1])
+64.	meanFrequencyBodyLinearAccelerationJerkMagnitudeStandardDeviation (numeric: [-1, 1])
+65.	meanFrequencyBodyAngularVelocityMagnitudeMean (numeric: [-1, 1])
+66.	meanFrequencyBodyAngularVelocityMagnitudeStandardDeviation (numeric: [-1, 1])
+67.	meanFrequencyBodyAngularVelocityJerkMagnitudeMean (numeric: [-1, 1])
+68.	meanFrequencyBodyAngularVelocityJerkMagnitudeStandardDeviation (numeric: [-1, 1])
