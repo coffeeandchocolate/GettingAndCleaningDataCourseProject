@@ -5,7 +5,9 @@
 ## Overview of tidy data structure
 
 This data set is derived from the raw training and test data available at:
-```https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip```
+```
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+```
 
 This data set contains data from 30 volunteers, each of whom performed six 
 different activities while wearing a Samsung Galaxy S II smartphone. This 

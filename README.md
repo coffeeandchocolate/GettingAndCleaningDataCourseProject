@@ -3,7 +3,9 @@
 
 ## How it works
 There is only one script that does everything for this project:
-```run_analysis.R```
+```
+run_analysis.R
+```
 
 Running this script in its entirety will download the zip file that contains 
 the data for this project, unzip it, and complete all the steps of the 
@@ -18,7 +20,9 @@ measurement.
 with the average of each variable for each activity and each subject.
 
 The tidy data set generated in Step 5 is named: 
-```getdata_courseproject_tidydataset.txt```
+```
+getdata_courseproject_tidydataset.txt
+```
 
 This file will be written into your working directory.
 
