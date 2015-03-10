@@ -20,9 +20,7 @@ are 180 (30 subjects x 6 activities each) rows and 68 columns.
 This tall form was chosen to make it easier to compare results across different 
 subjects as well as different activity types.
 
-## Description of variables
-
-Variables are listed in their column order.
+## Variables
 
 ### Fixed variables (columns 1-2)
 
@@ -100,7 +98,7 @@ The below lists should make the overall organization of the columns clearer:
 * Body angular velocity magnitude (columns 65-66)
 * Body angular velocity jerk magnitude (columns 67-68)
 
-#### Column numbers and variable names for all 68 variables
+### Column numbers and variable names for all 68 variables
 
 1.  subject
 2.  activity
