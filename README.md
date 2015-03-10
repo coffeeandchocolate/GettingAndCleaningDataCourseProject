@@ -144,8 +144,7 @@ https://class.coursera.org/getdata-012/forum/thread?thread_id=9)
 * Making the entire variable name lowercase--the variable names are incredibly 
 long and mixed case makes them easier to read
 
-## Step 5: Create a tidy data set with the average of each variable for each 
-activity and each subject
+## Step 5: Create a tidy data set with the average of each variable for each activity and subject
 
 The data set created in Step 4 is grouped by subject and activity, then the 
 mean is calculated for all remaining variables (which are all numeric) using 
