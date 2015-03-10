@@ -24,23 +24,25 @@ subjects as well as different activity types.
 
 Variables are listed in their column order.
 
-### Fixed variables
+### Fixed variables (columns 1-2)
 
 The first two variables are fixed variables describing the subject-activity 
 pair for the observation.
 
-1. **subject (character):** Unique ID number for each subject. ID numbers are 
-treated as characters rather than as numeric because they are categorical 
-variables (i.e., it is nonsensical to calculate with them)
-2. **activity (factor):** Activity type. The six levels of this factor are:
-    + laying
-    + sitting
-    + standing
-    + walking
-    + walkingdownstairs
-    + walkingupstairs
+**subject (character):** Unique ID number for each subject. Numbers are from 
+1-30. ID numbers are treated as characters rather than as numeric because they 
+are categorical variables (i.e., it is nonsensical to calculate with them)
+
+**activity (factor):** Activity type. The six levels of this factor are:
+
+* laying
+* sitting
+* standing
+* walking
+* walkingdownstairs
+* walkingupstairs
     
-### Feature variables
+### Feature variables (columns 3-68)
 
 #### Overall description and organization
 The remaining 66 variables correspond to the mean value for 66 features derived 
@@ -97,95 +99,73 @@ The below lists should make the overall organization of the columns clearer:
 * Body angular velocity magnitude (columns 65-66)
 * Body angular velocity jerk magnitude (columns 67-68)
 
-#### Column numbers and variable names for all 66 features
+#### Column numbers and variable names for all 68 variables
 
+1.  subject
+2.  activity
 3.  meanTimeBodyLinearAccelerationXDirectionMean
 4.  meanTimeBodyLinearAccelerationYDirectionMean
 5.	meanTimeBodyLinearAccelerationZDirectionMean
-
 6.	meanTimeBodyLinearAccelerationXDirectionStandardDeviation
 7.	meanTimeBodyLinearAccelerationYDirectionStandardDeviation
 8.	meanTimeBodyLinearAccelerationZDirectionStandardDeviation
-
 9.	meanTimeGravityAccelerationXDirectionMean
 10.	meanTimeGravityAccelerationYDirectionMean
 11.	meanTimeGravityAccelerationZDirectionMean
-
 12.	meanTimeGravityAccelerationXDirectionStandardDeviation
 13.	meanTimeGravityAccelerationYDirectionStandardDeviation
 14.	meanTimeGravityAccelerationZDirectionStandardDeviation
-
 15.	meanTimeBodyLinearAccelerationJerkXDirectionMean
 16.	meanTimeBodyLinearAccelerationJerkYDirectionMean
 17.	meanTimeBodyLinearAccelerationJerkZDirectionMean
-
 18.	meanTimeBodyLinearAccelerationJerkXDirectionStandardDeviation
 19.	meanTimeBodyLinearAccelerationJerkYDirectionStandardDeviation
 20.	meanTimeBodyLinearAccelerationJerkZDirectionStandardDeviation
-
 21.	meanTimeBodyAngularVelocityXDirectionMean
 22.	meanTimeBodyAngularVelocityYDirectionMean
 23.	meanTimeBodyAngularVelocityZDirectionMean
-
 24.	meanTimeBodyAngularVelocityXDirectionStandardDeviation
 25.	meanTimeBodyAngularVelocityYDirectionStandardDeviation
 26.	meanTimeBodyAngularVelocityZDirectionStandardDeviation
-
 27.	meanTimeBodyAngularVelocityJerkXDirectionMean
 28.	meanTimeBodyAngularVelocityJerkYDirectionMean
 29.	meanTimeBodyAngularVelocityJerkZDirectionMean
-
 30.	meanTimeBodyAngularVelocityJerkXDirectionStandardDeviation
 31.	meanTimeBodyAngularVelocityJerkYDirectionStandardDeviation
 32.	meanTimeBodyAngularVelocityJerkZDirectionStandardDeviation
-
 33.	meanTimeBodyLinearAccelerationMagnitudeMean
 34.	meanTimeBodyLinearAccelerationMagnitudeStandardDeviation
-
 35.	meanTimeGravityAccelerationMagnitudeMean
 36.	meanTimeGravityAccelerationMagnitudeStandardDeviation
-
 37.	meanTimeBodyLinearAccelerationJerkMagnitudeMean
 38.	meanTimeBodyLinearAccelerationJerkMagnitudeStandardDeviation
-
 39.	meanTimeBodyAngularVelocityMagnitudeMean
 40.	meanTimeBodyAngularVelocityMagnitudeStandardDeviation
-
 41.	meanTimeBodyAngularVelocityJerkMagnitudeMean
 42.	meanTimeBodyAngularVelocityJerkMagnitudeStandardDeviation
-
 43.	meanFrequencyBodyLinearAccelerationXDirectionMean
 44.	meanFrequencyBodyLinearAccelerationYDirectionMean
 45.	meanFrequencyBodyLinearAccelerationZDirectionMean
-
 46.	meanFrequencyBodyLinearAccelerationXDirectionStandardDeviation
 47.	meanFrequencyBodyLinearAccelerationYDirectionStandardDeviation
 48.	meanFrequencyBodyLinearAccelerationZDirectionStandardDeviation
-
 49.	meanFrequencyBodyLinearAccelerationJerkXDirectionMean
 50.	meanFrequencyBodyLinearAccelerationJerkYDirectionMean
 51.	meanFrequencyBodyLinearAccelerationJerkZDirectionMean
-
 52.	meanFrequencyBodyLinearAccelerationJerkXDirectionStandardDeviation
 53.	meanFrequencyBodyLinearAccelerationJerkYDirectionStandardDeviation
 54.	meanFrequencyBodyLinearAccelerationJerkZDirectionStandardDeviation
-
 55.	meanFrequencyBodyAngularVelocityXDirectionMean
 56.	meanFrequencyBodyAngularVelocityYDirectionMean
 57.	meanFrequencyBodyAngularVelocityZDirectionMean
-
 58.	meanFrequencyBodyAngularVelocityXDirectionStandardDeviation
 59.	meanFrequencyBodyAngularVelocityYDirectionStandardDeviation
 60.	meanFrequencyBodyAngularVelocityZDirectionStandardDeviation
-
 61.	meanFrequencyBodyLinearAccelerationMagnitudeMean
 62.	meanFrequencyBodyLinearAccelerationMagnitudeStandardDeviation
-
 63.	meanFrequencyBodyLinearAccelerationJerkMagnitudeMean
 64.	meanFrequencyBodyLinearAccelerationJerkMagnitudeStandardDeviation
-
 65.	meanFrequencyBodyAngularVelocityMagnitudeMean
 66.	meanFrequencyBodyAngularVelocityMagnitudeStandardDeviation
-
 67.	meanFrequencyBodyAngularVelocityJerkMagnitudeMean
 68.	meanFrequencyBodyAngularVelocityJerkMagnitudeStandardDeviation

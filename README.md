@@ -101,8 +101,7 @@ The combined training/test dataset is then subsetted based on these column
 indices. The result is a new data frame that contains 10,299 observations and 
 68 variables.
 
-## Step 3: Use descriptive activity names to name the activities in the data 
-set
+## Step 3: Use descriptive activity names in the data set
 
 The goal for this step is to replace the numbers in the activity code column 
 (column 2) with the corresponding labels in the ```activity_labels.txt``` file. 
@@ -123,8 +122,7 @@ conform to best practices for text variables:
 
 * Fix the "BodyBody" error in several variable names ("Body" should only appear 
 once, according to ```features_info.txt```)
-* Expand the abbreviations in the existing variable names based on 
-```features_info.txt```
+* Expand the abbreviations in the existing variable names based on ```features_info.txt```
     + Replace the ```t``` prefix with ```time```
     + Replace the ```f``` prefix with ```frequency```
     + Replace the ```-XYZ``` postfixes with ```XDirection```, ```YDirection```, 
